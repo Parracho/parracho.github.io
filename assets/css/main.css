@@ -86,6 +86,15 @@ h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
 }
+/* Functions created */
+.btn-xl {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  width:100%;
+}
+
+
 
 /* PHP Email Form Messages
 ------------------------------*/
