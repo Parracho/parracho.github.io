@@ -94,6 +94,27 @@ h6 {
   width:100%;
 }
 
+.custom-height {
+  min-height: 600px; /* Set your desired height */
+}
+
+.pdf-carousel-container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+canvas {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 
 /* PHP Email Form Messages
