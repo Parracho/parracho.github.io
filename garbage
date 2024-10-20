@@ -1,0 +1,345 @@
+
+
+
+
+
+<div class="book-section">
+          <div id="project1" class="container">
+            <div class="right1">
+              <figure class="back1" id="back-cover1"><img src="assets/f_R__theories/f_R__theories-page-030.jpg" style="width:100%"></figure>
+              <figure class="front1"><img src="assets/f_R__theories/f_R__theories/f_R__theories-page-029.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right1">
+              <figure class="back1"><img src="assets/f_R__theories/f_R__theories-page-028.jpg" style="width:100%"></figure>
+              <figure class="front1"><img src="assets/f_R__theories/f_R__theories-page-027.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right1">
+              <figure class="back1"><img src="assets/f_R__theories/f_R__theories-page-026.jpg" style="width:100%"></figure>
+              <figure class="front1"><img src="assets/f_R__theories/f_R__theories-page-025.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right1">
+              <figure class="back1"><img src="assets/f_R__theories/f_R__theories-page-024.jpg" style="width:100%"></figure>
+              <figure class="front1"><img src="assets/f_R__theories/f_R__theories-page-023.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right1">
+              <figure class="back1"><img src="assets/f_R__theories/f_R__theories-page-022.jpg" style="width:100%"></figure>
+              <figure class="front1"><img src="assets/f_R__theories/f_R__theories-page-021.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right1">
+              <figure class="back1"><img src="assets/f_R__theories/f_R__theories-page-020.jpg" style="width:100%"></figure>
+              <figure class="front1"><img src="assets/f_R__theories/f_R__theories-page-019.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right1">
+              <figure class="back1"><img src="assets/f_R__theories/f_R__theories-page-018.jpg" style="width:100%"></figure>
+              <figure class="front1"><img src="assets/f_R__theories/f_R__theories-page-017.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right1">
+              <figure class="back1"><img src="assets/f_R__theories/f_R__theories-page-016.jpg" style="width:100%"></figure>
+              <figure class="front1"><img src="assets/f_R__theories/f_R__theories-page-015.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right1">
+              <figure class="back1"><img src="assets/f_R__theories/f_R__theories-page-014.jpg" style="width:100%"></figure>
+              <figure class="front1"><img src="assets/f_R__theories/f_R__theories-page-013.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right1">
+              <figure class="back1"><img src="assets/f_R__theories/f_R__theories-page-012.jpg" style="width:100%"></figure>
+              <figure class="front1"><img src="assets/f_R__theories/f_R__theories-page-011.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right1">
+              <figure class="back1"><img src="assets/f_R__theories/f_R__theories-page-010.jpg" style="width:100%"></figure>
+              <figure class="front1"><img src="assets/f_R__theories/f_R__theories-page-009.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right1">
+              <figure class="back1"><img src="assets/f_R__theories/f_R__theories-page-008.jpg" style="width:100%"></figure>
+              <figure class="front1"><img src="assets/f_R__theories/f_R__theories-page-007.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right1">
+              <figure class="back1"><img src="assets/f_R__theories/f_R__theories-page-006.jpg" style="width:100%"></figure>
+              <figure class="front1"><img src="assets/f_R__theories/f_R__theories-page-005.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right1">
+              <figure class="back1"><img src="assets/f_R__theories/f_R__theories-page-004.jpg" style="width:100%"></figure>
+              <figure class="front1"><img src="assets/f_R__theories/f_R__theories-page-003.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right1">
+              <figure class="back1"><img src="assets/f_R__theories/f_R__theories-page-002.jpg" style="width:100%"></figure>
+              <figure class="front1" id="cover1"><img src="assets/f_R__theories/f_R__theories-page-001.jpg" style="width:100%"></figure>
+            </div>
+          </div>
+          <button onclick="turnLeft1()">Prev</button>
+          <button onclick="turnRight1()">Next</button>
+          <br />
+        </div>
+        
+          
+
+        
+        <div class="book-section">
+          <div id="project2" class="container">
+            <div class="right2">
+              <figure class="back2" id="back-cover2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-043.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-042.jpg" style="width:100%"></figure>
+              <figure class="front2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-041.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-040.jpg" style="width:100%"></figure>
+              <figure class="front2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-039.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-038.jpg" style="width:100%"></figure>
+              <figure class="front2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-037.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-036.jpg" style="width:100%"></figure>
+              <figure class="front2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-035.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-034.jpg" style="width:100%"></figure>
+              <figure class="front2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-033.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-032.jpg" style="width:100%"></figure>
+              <figure class="front2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-031.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-030.jpg" style="width:100%"></figure>
+              <figure class="front2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-029.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-028.jpg" style="width:100%"></figure>
+              <figure class="front2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-027.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-026.jpg" style="width:100%"></figure>
+              <figure class="front2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-025.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-024.jpg" style="width:100%"></figure>
+              <figure class="front2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-023.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-022.jpg" style="width:100%"></figure>
+              <figure class="front2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-021.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-020.jpg" style="width:100%"></figure>
+              <figure class="front2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-019.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-018.jpg" style="width:100%"></figure>
+              <figure class="front2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-017.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-016.jpg" style="width:100%"></figure>
+              <figure class="front2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-015.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-014.jpg" style="width:100%"></figure>
+              <figure class="front2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-013.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-012.jpg" style="width:100%"></figure>
+              <figure class="front2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-011.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-010.jpg" style="width:100%"></figure>
+              <figure class="front2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-009.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-008.jpg" style="width:100%"></figure>
+              <figure class="front2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-007.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-006.jpg" style="width:100%"></figure>
+              <figure class="front2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-005.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-004.jpg" style="width:100%"></figure>
+              <figure class="front2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-003.jpg" style="width:100%"></figure>
+            </div>
+            <div class="right2">
+              <figure class="back2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-002.jpg" style="width:100%"></figure>
+              <figure class="front2" id="cover2"><img src="assets/ultralight_dark_matter/Projeto-Bruno Parracho(1)-page-001.jpg" style="width:100%"></figure>
+            </div>
+          </div>
+          <button onclick="turnLeft2()">Prev</button>
+          <button onclick="turnRight2()">Next</button>
+          <br />
+        </div>
+        
+
+
+        body {
+  margin: 0;
+  background-color: #ffecc6;
+}
+* {
+  box-sizing: border-box;
+}
+.book-section {
+  height: 100vh;
+  width: 100%;
+  padding: 40px 0;
+  text-align: center;
+}
+.book-section > .container {
+  height: 400px;
+  width: 500px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2%;
+  margin-bottom: 30px;
+  perspective: 1200px;
+}
+.flip {
+  transform: rotateY(-180deg);
+}
+.flip::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.book-section > button {
+  border: 2px solid #ef9f00;
+  background-color: transparent;
+  color: #ef9f00;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.3s ease-in-out;
+}
+.book-section > button:focus,
+.book-section > button:active {
+  outline: none;
+}
+.book-section > p {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: calibri;
+  font-size: 24px;
+}
+.book-section > p > a {
+  text-decoration: none;
+  color: #ef9f00;
+}
+.book-section > button:hover {
+  background-color: #ef9f00;
+  color: #fff;
+}
+
+
+/* Book 1 */
+.container > .right1 {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  transition: 0.7s ease-in-out;
+  transform-style: preserve-3d;
+}
+.book-section > .container > .right1 {
+  right: 0;
+  transform-origin: left;
+  border-radius: 10px 0 0 10px;
+}
+.right1 > figure.front1,
+.right1 > figure.back1 {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  background-color: white;
+  overflow: hidden;
+}
+.right1 > figure.front1 {
+  background-position: right;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 2px 2px 15px -2px rgba(0, 0, 0, 0.2);
+}
+.right1 > figure.back1 {
+  background-position: left;
+  border-radius: 10px 0 0 10px;
+  box-shadow: -2px 2px 15px -2px rgba(0, 0, 0, 0.2);
+  transform: rotateY(180deg);
+}
+.front1#cover1,
+.back1#back-cover1 {
+  background-color: #ffcb63;
+  font-family: calibri;
+  text-align: left;
+  padding: 0 30px;
+}
+.front1#cover1 h1 {
+  color: #fff;
+}
+.front1#cover1 p {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+}
+/* Book 2 */
+.container > .right2 {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  transition: 0.7s ease-in-out;
+  transform-style: preserve-3d;
+}
+.book-section > .container > .right2 {
+  right: 0;
+  transform-origin: left;
+  border-radius: 10px 0 0 10px;
+}
+.right2 > figure.front2 ,
+.right2 > figure.back2 {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  background-color: white;
+  overflow: hidden;
+}
+.right2 > figure.front2 {
+  background-position: right;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 2px 2px 15px -2px rgba(0, 0, 0, 0.2);
+}
+.right2 > figure.back2 {
+  background-position: left;
+  border-radius: 10px 0 0 10px;
+  box-shadow: -2px 2px 15px -2px rgba(0, 0, 0, 0.2);
+  transform: rotateY(180deg);
+}
+.front2#cover2,
+.back2#back-cover2 {
+  background-color: #ffcb63;
+  font-family: calibri;
+  text-align: left;
+  padding: 0 30px;
+}
+.front2#cover2 h1 {
+  color: #fff;
+}
+.front2#cover2 p {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+}
+
+

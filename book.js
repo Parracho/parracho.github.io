@@ -1,54 +1,62 @@
-let right = [document.getElementsByClassName("right0"),document.getElementsByClassName("right1")];
-let si = [right[0].length,right[1].length];
-let z = [1,1];
+var containers = document.querySelectorAll(".container"); // Select all book containers
+var currentIndexes = []; // Track the current index for each book container
+var zIndexes = []; // Track the z-index for each book container
 
-function turnRight(id) {
-  if (si[id] >= 1) {
-    si[id]--;
+// Initialize variables for each book container
+for (var i = 0; i < containers.length; i++) {
+  var rightElements = containers[i].getElementsByClassName("right");
+  currentIndexes.push(rightElements.length); // Start at the last element
+  zIndexes.push(1); // Initialize z-index to 1 for each book container
+}
+
+// Turn right function (for each book container)
+function turnRight(bookIndex) {
+  var rightElements = containers[bookIndex].getElementsByClassName("right");
+  var si = currentIndexes[bookIndex];
+
+  if (si >= 1) {
+    si--;
   } else {
-    si[id] = right[id].length - 1;
-    function sttmot(i) {
+    si = rightElements.length - 1;
+
+    function resetZIndex(i) {
       setTimeout(function () {
-        right[id][i].style.zIndex = "auto";
+        rightElements[i].style.zIndex = "auto";
       }, 300);
     }
-    for (var i = 0; i < right[id].length; i++) {
-      if (id==0){ 
-        right[id][i].className = "right0";
-        sttmot(i);
-        z[id] = 1;
-      }
-      else if (id==1){ 
-        right[id][i].className = "right1";
-        sttmot(i);
-        z[id] = 1;
-      }
+
+    for (var i = 0; i < rightElements.length; i++) {
+      rightElements[i].className = "right"; // Reset flip state
+      resetZIndex(i); // Reset z-index
+      zIndexes[bookIndex] = 1; // Reset z-index tracker for this book container
     }
   }
-  right[id][si].classList.add("flip");
-  z[id]++;
-  right[id][si].style.zIndex = z[id];
+
+  rightElements[si].classList.add("flip"); // Apply flip to the current book
+  zIndexes[bookIndex]++;
+  rightElements[si].style.zIndex = zIndexes[bookIndex]; // Update z-index for stacking
+  currentIndexes[bookIndex] = si; // Update current index for this book container
 }
 
-function turnLeft(id) {
-  if (si[id] < right[id].length) {
-    si[id]++;
+// Turn left function (for each book container)
+function turnLeft(bookIndex) {
+  var rightElements = containers[bookIndex].getElementsByClassName("right");
+  var si = currentIndexes[bookIndex];
+
+  if (si < rightElements.length) {
+    si++;
   } else {
-    si[id] = 1;
-    for (var i = right[id].length - 1; i > 0; i--) {
-      right[id][i].classList.add("flip");
-      right[id][i].style.zIndex = right[id].length + 1 - i;
+    si = 1;
+
+    for (var i = rightElements.length - 1; i > 0; i--) {
+      rightElements[i].classList.add("flip"); // Flip all books
+      rightElements[i].style.zIndex = rightElements.length + 1 - i; // Update z-index
     }
   }
-  if (id==0){
-    right[id][si[id] - 1].className = "right0";
-  }
-  else if (id==1){
-    right[id][si[id] - 1].className = "right1";
-  }
-  setTimeout(function () {
-    right[id][si[id] - 1].style.zIndex = "auto";
-  }, 350);
-}
 
-  
+  rightElements[si - 1].className = "right"; // Remove flip from current book
+  setTimeout(function () {
+    rightElements[si - 1].style.zIndex = "auto"; // Reset z-index
+  }, 350);
+  currentIndexes[bookIndex] = si - 1; // Update current index
+}
