@@ -107,14 +107,15 @@ body {
   box-sizing: border-box;
 }
 .book-section {
-  height: 100vh;
+  height: 70vw;
   width: 100%;
   padding: 40px 0;
   text-align: center;
 }
 .book-section > .container {
-  height: 707px;
-  width: 1000px;
+  width: 90%; /* Makes the container width relative to screen size */
+  max-width: 1000px; /* Sets a maximum width to ensure it doesn't stretch too large */
+  aspect-ratio: 1000 / 707; /* Maintains the aspect ratio */
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -205,13 +206,13 @@ body {
 }
 .front1#cover1,
 .back1#back-cover1 {
-  background-color: #ffffff;
+  background-color: #cb3030;
   font-family: calibri;
   text-align: left;
-  padding: 0 30px;
+  padding: 0 0px;
 }
 .front1#cover1 h1 {
-  color: #fff;
+  color: #ffffff;
 }
 .front1#cover1 p {
   color: rgba(0, 0, 0, 0.8);
@@ -241,7 +242,7 @@ body {
   background-size: 200%;
   background-repeat: no-repeat;
   backface-visibility: hidden;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   overflow: hidden;
 }
 .right2 > figure.front2 {
@@ -257,13 +258,13 @@ body {
 }
 .front2#cover2,
 .back2#back-cover2 {
-  background-color: #ffffff;
+  background-color: #b42929;
   font-family: calibri;
   text-align: left;
-  padding: 0 30px;
+  padding: 0 0px;
 }
 .front2#cover2 h1 {
-  color: #fff;
+  color: #ffffff;
 }
 .front2#cover2 p {
   color: rgba(0, 0, 0, 0.8);
