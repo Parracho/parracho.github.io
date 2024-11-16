@@ -107,51 +107,24 @@ body {
   box-sizing: border-box;
 }
 .book-section {
-  height: auto; /* Adjust height dynamically to fit content */
+  height: auto; /* Let the content define the height */
   width: 100%;
   padding: 40px 0;
   text-align: center;
-  margin-bottom: 40px; /* Add spacing between book sections */
-}
-
-.book-section > .container {
-  width: 90%; /* Makes the container width relative to screen size */
-  max-width: 1000px; /* Sets a maximum width to ensure it doesn't stretch too large */
-  aspect-ratio: 1000 / 707; /* Maintains the aspect ratio */
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  border-radius: 2%;
-  margin-bottom: 30px;
-  perspective: 1200px;
+  margin-bottom: 40px; /* Ensure spacing between sections */
 }
 
 .book-section > button {
-  display: inline-block; /* Ensure buttons are inline-block to respect margins */
+  display: block; /* Stack buttons vertically */
+  width: 80%; /* Make buttons wider for touch interaction */
+  margin: 10px auto; /* Center-align buttons with consistent spacing */
   border: 2px solid #ef9f00;
   background-color: transparent;
   color: #ef9f00;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  margin: 10px; /* Adds space around buttons */
   transition: 0.3s ease-in-out;
-}
-
-.book-section > button:focus,
-.book-section > button:active {
-  outline: none;
-}
-
-.book-section > p {
-  color: rgba(0, 0, 0, 0.7);
-  font-family: calibri;
-  font-size: 24px;
-}
-
-.book-section > p > a {
-  text-decoration: none;
-  color: #ffffff;
 }
 
 .book-section > button:hover {
@@ -159,16 +132,26 @@ body {
   color: #fff;
 }
 
+.book-section > .container {
+  width: 90%;
+  max-width: 1000px;
+  aspect-ratio: 1000 / 707;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2%;
+  margin-bottom: 30px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .book-section {
-    margin-bottom: 50px; /* Increase spacing between sections on small devices */
+    padding: 20px 0;
   }
 
   .book-section > button {
-    width: 80%; /* Buttons take more space for easier tapping on smaller screens */
-    margin: 10px auto; /* Center-align buttons with proper spacing */
-    display: block; /* Stack buttons vertically */
+    width: 90%; /* Buttons take up more width for small screens */
+    font-size: 16px; /* Slightly smaller text for compact layout */
   }
 }
 
