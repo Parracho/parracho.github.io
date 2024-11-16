@@ -107,11 +107,13 @@ body {
   box-sizing: border-box;
 }
 .book-section {
-  height: 70vw;
+  height: auto; /* Adjust height dynamically to fit content */
   width: 100%;
   padding: 40px 0;
   text-align: center;
+  margin-bottom: 40px; /* Add spacing between book sections */
 }
+
 .book-section > .container {
   width: 90%; /* Makes the container width relative to screen size */
   max-width: 1000px; /* Sets a maximum width to ensure it doesn't stretch too large */
@@ -123,6 +125,54 @@ body {
   margin-bottom: 30px;
   perspective: 1200px;
 }
+
+.book-section > button {
+  display: inline-block; /* Ensure buttons are inline-block to respect margins */
+  border: 2px solid #ef9f00;
+  background-color: transparent;
+  color: #ef9f00;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px; /* Adds space around buttons */
+  transition: 0.3s ease-in-out;
+}
+
+.book-section > button:focus,
+.book-section > button:active {
+  outline: none;
+}
+
+.book-section > p {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: calibri;
+  font-size: 24px;
+}
+
+.book-section > p > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.book-section > button:hover {
+  background-color: #ef9f00;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .book-section {
+    margin-bottom: 50px; /* Increase spacing between sections on small devices */
+  }
+
+  .book-section > button {
+    width: 80%; /* Buttons take more space for easier tapping on smaller screens */
+    margin: 10px auto; /* Center-align buttons with proper spacing */
+    display: block; /* Stack buttons vertically */
+  }
+}
+
+
 .flip {
   transform: rotateY(-180deg);
 }
@@ -136,33 +186,6 @@ body {
   height: 100%;
   border-radius: 0 10px 10px 0;
   background-color: rgba(0, 0, 0, 0.1);
-}
-.book-section > button {
-  border: 2px solid #ef9f00;
-  background-color: transparent;
-  color: #ef9f00;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin: 10px;
-  transition: 0.3s ease-in-out;
-}
-.book-section > button:focus,
-.book-section > button:active {
-  outline: none;
-}
-.book-section > p {
-  color: rgba(0, 0, 0, 0.7);
-  font-family: calibri;
-  font-size: 24px;
-}
-.book-section > p > a {
-  text-decoration: none;
-  color: #ffffff;
-}
-.book-section > button:hover {
-  background-color: #ef9f00;
-  color: #fff;
 }
 
 
