@@ -95,6 +95,18 @@ h6 {
   width:100%;
 }
 
+.large-gif {
+  max-width: 100%; /* Ensures the image is responsive */
+  height: auto;    /* Maintains aspect ratio */
+}
+
+@media (min-width: 992px) {
+  /* For larger screens */
+  .large-gif {
+    max-width: 80%; /* Increase the size relative to its container */
+  }
+}
+
 .custom-height {
   min-height: 25vw; /* Set your desired height */
 }
@@ -106,6 +118,24 @@ body {
 * {
   box-sizing: border-box;
 }
+.container > button {
+  display: block; /* Stack buttons vertically */
+  width: 80%; /* Make buttons wider for touch interaction */
+  margin: 10px auto; /* Center-align buttons with consistent spacing */
+  border: 2px solid #ef9f00;
+  background-color: transparent;
+  color: #ef9f00;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.container > button:hover {
+  background-color: #ef9f00;
+  color: #fff;
+}
+
 .book-section {
   height: auto; /* Let the content define the height */
   width: 100%;
@@ -224,6 +254,8 @@ body {
   color: rgba(0, 0, 0, 0.8);
   font-size: 14px;
 }
+
+
 /* Book 2 */
 .container > .right2 {
   position: absolute;
