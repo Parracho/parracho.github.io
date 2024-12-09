@@ -312,6 +312,59 @@ body {
 
 
 
+/* Book 3 */
+.container > .right3 {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  transition: 0.7s ease-in-out;
+  transform-style: preserve-3d;
+}
+.book-section > .container > .right3 {
+  right: 0;
+  transform-origin: left;
+  border-radius: 10px 0 0 10px;
+}
+.right3 > figure.front3,
+.right3 > figure.back3 {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  background-color: white;
+  overflow: hidden;
+}
+.right3 > figure.front3 {
+  background-position: right;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 2px 2px 15px -2px rgba(0, 0, 0, 0.2);
+}
+.right3 > figure.back3 {
+  background-position: left;
+  border-radius: 10px 0 0 10px;
+  box-shadow: -2px 2px 15px -2px rgba(0, 0, 0, 0.2);
+  transform: rotateY(180deg);
+}
+.front3#cover3,
+.back3#back-cover3 {
+  background-color: #cb3030;
+  font-family: calibri;
+  text-align: left;
+  padding: 0 0px;
+}
+.front3#cover3 h1 {
+  color: #ffffff;
+}
+.front4#cover4 p {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+}
+
 
 
 /* PHP Email Form Messages
