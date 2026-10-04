@@ -200,7 +200,7 @@ body {
   border-radius: 0 10px 10px 0;
   background-color: rgba(0, 0, 0, 0.1);
 }
-.right1, .right2, .right3 {
+.right1, .right2, .right3, .right4 {
   perspective: 2000px;
 }
 

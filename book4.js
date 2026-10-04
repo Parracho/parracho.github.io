@@ -19,7 +19,7 @@ function turnRight4() {
     }
   }
   right4[si4].classList.add("flip");
-  z3++;
+  z4++;
   right4[si4].style.zIndex = z4;
 }
 function turnLeft4() {
