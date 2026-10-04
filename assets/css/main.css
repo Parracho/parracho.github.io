@@ -365,6 +365,59 @@ body {
   font-size: 14px;
 }
 
+/* Book 4 */
+.container > .right4 {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  transition: 0.7s ease-in-out;
+  transform-style: preserve-3d;
+}
+.book-section > .container > .right4 {
+  right: 0;
+  transform-origin: left;
+  border-radius: 10px 0 0 10px;
+}
+.right4 > figure.front4,
+.right4 > figure.back4 {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  background-color: white;
+  overflow: hidden;
+}
+.right4 > figure.front4 {
+  background-position: right;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 2px 2px 15px -2px rgba(0, 0, 0, 0.2);
+}
+.right4 > figure.back4 {
+  background-position: left;
+  border-radius: 10px 0 0 10px;
+  box-shadow: -2px 2px 15px -2px rgba(0, 0, 0, 0.2);
+  transform: rotateY(180deg);
+}
+.front4#cover4,
+.back4#back-cover4 {
+  background-color: #cb3030;
+  font-family: calibri;
+  text-align: left;
+  padding: 0 0px;
+}
+.front4#cover4 h4 {
+  color: #ffffff;
+}
+.front4#cover4 p {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+}
+
 
 
 /* PHP Email Form Messages
