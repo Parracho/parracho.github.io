@@ -957,32 +957,191 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
-.about .content h2 {
-  font-weight: 700;
-  font-size: 24px;
+
+.about {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 6rem 2rem;
 }
 
-.about .content ul {
-  list-style: none;
-  padding: 0;
+
+/* =========================
+   HEADER
+   ========================= */
+
+.about-header {
+    margin-bottom: 5rem;
 }
 
-.about .content ul li {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
+.about-label,
+.section-label {
+    display: block;
+
+    margin-bottom: 1rem;
+
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    opacity: 0.5;
 }
 
-.about .content ul strong {
-  margin-right: 10px;
+.about-header h2 {
+    margin: 0;
+
+    font-size: clamp(3rem, 8vw, 7rem);
+    line-height: 0.9;
+    letter-spacing: -0.06em;
 }
 
-.about .content ul i {
-  font-size: 16px;
-  margin-right: 5px;
-  color: var(--accent-color);
-  line-height: 0;
+.about-tagline {
+    margin-top: 2rem;
+
+    font-size: 1.4rem;
+    line-height: 1.4;
+
+    opacity: 0.6;
 }
+
+
+/* =========================
+   BODY
+   ========================= */
+
+.about-body {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.about-body p {
+    max-width: 700px;
+
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   INTERESTS
+   ========================= */
+
+.about-interests {
+    margin-left: 10%;
+}
+
+.about-interests p {
+    max-width: 650px;
+}
+
+
+/* =========================
+   CONNECTION
+   ========================= */
+
+.about-connection {
+    margin-left: 20%;
+    padding-left: 2rem;
+
+    border-left: 2px solid currentColor;
+}
+
+.about-highlight {
+    font-size: 1.8rem !important;
+    line-height: 1.35 !important;
+    letter-spacing: -0.02em;
+}
+
+.connection-list {
+    margin-top: 3rem;
+}
+
+.connection-list p {
+    position: relative;
+
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.connection-list p::before {
+    content: "→";
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    opacity: 0.5;
+}
+
+
+/* =========================
+   ENDING
+   ========================= */
+
+.about-ending {
+    margin-top: 8rem;
+
+    text-align: center;
+}
+
+.about-mantra {
+    margin-bottom: 2rem;
+
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    line-height: 1;
+    letter-spacing: -0.05em;
+}
+
+.about-ending > p:last-child {
+    max-width: 650px;
+    margin: 0 auto;
+
+    font-size: 1.05rem;
+    line-height: 1.8;
+
+    opacity: 0.65;
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 700px) {
+
+    .about {
+        padding: 4rem 1.5rem;
+    }
+
+    .about-header {
+        margin-bottom: 4rem;
+    }
+
+    .about-body {
+        gap: 4rem;
+    }
+
+    .about-interests {
+        margin-left: 0;
+    }
+
+    .about-connection {
+        margin-left: 0;
+        padding-left: 1.25rem;
+    }
+
+    .about-highlight {
+        font-size: 1.5rem !important;
+    }
+
+    .about-ending {
+        margin-top: 5rem;
+    }
+
+}
+
+
 
 /*--------------------------------------------------------------
 # Stats Section
